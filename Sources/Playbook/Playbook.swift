@@ -16,6 +16,7 @@ import UIKit
 ///             Content()
 ///         }
 ///     }
+@MainActor
 open class Playbook {
     /// The default shared instance of `Playbook`.
     public static let `default` = Playbook()

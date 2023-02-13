@@ -13,6 +13,7 @@
 ///             }
 ///         }
 ///     }
+@MainActor
 public protocol ScenarioProvider {
     /// The function to defines a group of scenarios.
     ///
